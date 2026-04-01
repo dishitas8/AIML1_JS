@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myH1" class="democlass">The Element Object</h1>
+<p id="demo"></p>
+
+<script>
+    const element = document.querySelector("#myH1"); // correct
+    let text = element.getAttribute("class");
+    document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
